@@ -15,7 +15,8 @@
         "build": "grunt build",
         "dev": "grunt dev",
         "build-dev": "grunt build-dev",
-        "docs": "grunt docs"
+        "docs": "grunt docs",
+        "prepare": "npm run build"
     },
     "contributors": [
         {
