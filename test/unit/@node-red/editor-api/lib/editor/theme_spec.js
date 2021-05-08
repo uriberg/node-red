@@ -71,7 +71,8 @@ describe("api/editor/theme", function () {
                 deployButton: {
                     type: "simple",
                     label: "Save",
-                    icon: "/absolute/path/to/deploy/button/image" // or null to remove image
+                    //icon: "/absolute/path/to/deploy/button/image",
+                    icon: null // or null to remove image
                 },
 
                 menu: { // Hide unwanted menu items by id. see editor/js/main.js:loadEditor for complete list
